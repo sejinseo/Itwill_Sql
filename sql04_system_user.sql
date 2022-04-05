@@ -8,7 +8,7 @@
 -- 테스트(성공) -> 저장 -> 접속
 
 -- Oracle 11g XE 데이터베이스 시스템에 설치된 연습용 계정(hr) 활성화
-alter user hr account unlock;
+alter user hr account unlock; 
 
 -- 사용자 계정 hr의 비밀번호를 hr로 설정
 alter user hr identified by hr;
